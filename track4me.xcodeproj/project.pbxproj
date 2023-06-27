@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A75E83502A4B88E10020FA7A /* sleepTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75E834F2A4B88E10020FA7A /* sleepTracker.swift */; };
 		A7A79D122A4A1329002FC0F9 /* track4meApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A79D112A4A1329002FC0F9 /* track4meApp.swift */; };
 		A7A79D142A4A1329002FC0F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A79D132A4A1329002FC0F9 /* ContentView.swift */; };
 		A7A79D162A4A132A002FC0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A79D152A4A132A002FC0F9 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A75E834F2A4B88E10020FA7A /* sleepTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sleepTracker.swift; sourceTree = "<group>"; };
 		A7A79D0E2A4A1329002FC0F9 /* track4me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = track4me.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A79D112A4A1329002FC0F9 /* track4meApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = track4meApp.swift; sourceTree = "<group>"; };
 		A7A79D132A4A1329002FC0F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				A7A79D112A4A1329002FC0F9 /* track4meApp.swift */,
 				A7A79D132A4A1329002FC0F9 /* ContentView.swift */,
+				A75E834F2A4B88E10020FA7A /* sleepTracker.swift */,
 				A7A79D152A4A132A002FC0F9 /* Assets.xcassets */,
 				A7A79D172A4A132A002FC0F9 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A75E83502A4B88E10020FA7A /* sleepTracker.swift in Sources */,
 				A7A79D142A4A1329002FC0F9 /* ContentView.swift in Sources */,
 				A7A79D122A4A1329002FC0F9 /* track4meApp.swift in Sources */,
 			);
