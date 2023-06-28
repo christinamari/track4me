@@ -9,15 +9,39 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            Color.cyan
+            NavigationStack {
+                Text("track4me")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                VStack {
+                    // journal
+                    NavigationLink(destination: journal()) {
+                        Text("Journal")
+                    }
+                    .padding()
+                    // to do list
+                    NavigationLink(destination: toDoList()) {
+                        Text("To Do List")
+                    }
+                    .padding()
+                    // sleep tracker
+                    NavigationLink(destination: sleepTracker()) {
+                        Text("Sleep Tracker")
+                    }
+                    .padding()
+                    // mood tracker
+                    NavigationLink(destination: moodTracker()) {
+                        Text("Mood Tracker")
+                    }
+                    .padding()
+                        }
+                    }
         }
-        .padding()
-    }
-}
+            }
+        }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
