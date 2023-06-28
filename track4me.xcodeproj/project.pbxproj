@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A75E83502A4B88E10020FA7A /* sleepTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75E834F2A4B88E10020FA7A /* sleepTracker.swift */; };
+		A7883D0D2A4CCBBD003DB9C1 /* moodTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7883D0C2A4CCBBD003DB9C1 /* moodTracker.swift */; };
+		A7883D0F2A4CCBCA003DB9C1 /* toDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7883D0E2A4CCBCA003DB9C1 /* toDoList.swift */; };
+		A7883D112A4CCBD7003DB9C1 /* journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7883D102A4CCBD7003DB9C1 /* journal.swift */; };
 		A7A79D122A4A1329002FC0F9 /* track4meApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A79D112A4A1329002FC0F9 /* track4meApp.swift */; };
 		A7A79D142A4A1329002FC0F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A79D132A4A1329002FC0F9 /* ContentView.swift */; };
 		A7A79D162A4A132A002FC0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A79D152A4A132A002FC0F9 /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 
 /* Begin PBXFileReference section */
 		A75E834F2A4B88E10020FA7A /* sleepTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sleepTracker.swift; sourceTree = "<group>"; };
+		A7883D0C2A4CCBBD003DB9C1 /* moodTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodTracker.swift; sourceTree = "<group>"; };
+		A7883D0E2A4CCBCA003DB9C1 /* toDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoList.swift; sourceTree = "<group>"; };
+		A7883D102A4CCBD7003DB9C1 /* journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journal.swift; sourceTree = "<group>"; };
 		A7A79D0E2A4A1329002FC0F9 /* track4me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = track4me.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A79D112A4A1329002FC0F9 /* track4meApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = track4meApp.swift; sourceTree = "<group>"; };
 		A7A79D132A4A1329002FC0F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +104,9 @@
 			children = (
 				A7A79D112A4A1329002FC0F9 /* track4meApp.swift */,
 				A7A79D132A4A1329002FC0F9 /* ContentView.swift */,
+				A7883D0C2A4CCBBD003DB9C1 /* moodTracker.swift */,
+				A7883D0E2A4CCBCA003DB9C1 /* toDoList.swift */,
+				A7883D102A4CCBD7003DB9C1 /* journal.swift */,
 				A75E834F2A4B88E10020FA7A /* sleepTracker.swift */,
 				A7A79D152A4A132A002FC0F9 /* Assets.xcassets */,
 				A7A79D172A4A132A002FC0F9 /* Preview Content */,
@@ -261,8 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A75E83502A4B88E10020FA7A /* sleepTracker.swift in Sources */,
+				A7883D112A4CCBD7003DB9C1 /* journal.swift in Sources */,
+				A7883D0F2A4CCBCA003DB9C1 /* toDoList.swift in Sources */,
 				A7A79D142A4A1329002FC0F9 /* ContentView.swift in Sources */,
 				A7A79D122A4A1329002FC0F9 /* track4meApp.swift in Sources */,
+				A7883D0D2A4CCBBD003DB9C1 /* moodTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
