@@ -41,6 +41,7 @@ struct sleepTracker: View {
                                 .multilineTextAlignment(.center)
                                 .font(.custom("Chewy-Regular", size: 30))
                                 .padding(.leading)
+                            
                             TextField("Enter your bed time.", text: $bedTime1)
                                 .frame(width: /*@START_MENU_TOKEN@*/200.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
                                 .multilineTextAlignment(.center)
@@ -48,7 +49,7 @@ struct sleepTracker: View {
                                 .cornerRadius(20)
                             
                         }
-                        .padding()
+                        .padding(.top, 70)
                         HStack {
                             Text("Tuesday")
                                 .multilineTextAlignment(.center)
@@ -96,7 +97,13 @@ struct sleepTracker: View {
                                 .background(.white)
                                 .cornerRadius(20)
                         }
-                      
+                      Text("Resources.")
+                            .font(.custom("Chewy-Regular", size: 30))
+                        
+                        Link("How to fall asleep easily.", destination: URL(string: "https://www.medicalnewstoday.com/articles/322928")!)
+                            .foregroundColor(.black)
+                            .font(.custom("Kollektif", size: 20))
+                            
                     }
                 }
             }
