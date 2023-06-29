@@ -11,6 +11,12 @@
 		A7883D0D2A4CCBBD003DB9C1 /* moodTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7883D0C2A4CCBBD003DB9C1 /* moodTracker.swift */; };
 		A7883D0F2A4CCBCA003DB9C1 /* toDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7883D0E2A4CCBCA003DB9C1 /* toDoList.swift */; };
 		A7883D112A4CCBD7003DB9C1 /* journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7883D102A4CCBD7003DB9C1 /* journal.swift */; };
+		A7883D1B2A4D57CE003DB9C1 /* Chewy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7883D1A2A4D57CE003DB9C1 /* Chewy-Regular.ttf */; };
+		A7883D1C2A4D57CE003DB9C1 /* Chewy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7883D1A2A4D57CE003DB9C1 /* Chewy-Regular.ttf */; };
+		A7883D1D2A4D57CE003DB9C1 /* Chewy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7883D1A2A4D57CE003DB9C1 /* Chewy-Regular.ttf */; };
+		A7883D272A4D61AA003DB9C1 /* Kollektif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7883D262A4D61AA003DB9C1 /* Kollektif.ttf */; };
+		A7883D282A4D61AA003DB9C1 /* Kollektif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7883D262A4D61AA003DB9C1 /* Kollektif.ttf */; };
+		A7883D292A4D61AA003DB9C1 /* Kollektif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7883D262A4D61AA003DB9C1 /* Kollektif.ttf */; };
 		A7A79D122A4A1329002FC0F9 /* track4meApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A79D112A4A1329002FC0F9 /* track4meApp.swift */; };
 		A7A79D142A4A1329002FC0F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A79D132A4A1329002FC0F9 /* ContentView.swift */; };
 		A7A79D162A4A132A002FC0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A79D152A4A132A002FC0F9 /* Assets.xcassets */; };
@@ -42,6 +48,9 @@
 		A7883D0C2A4CCBBD003DB9C1 /* moodTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodTracker.swift; sourceTree = "<group>"; };
 		A7883D0E2A4CCBCA003DB9C1 /* toDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoList.swift; sourceTree = "<group>"; };
 		A7883D102A4CCBD7003DB9C1 /* journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journal.swift; sourceTree = "<group>"; };
+		A7883D1A2A4D57CE003DB9C1 /* Chewy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chewy-Regular.ttf"; sourceTree = "<group>"; };
+		A7883D1E2A4D58BB003DB9C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A7883D262A4D61AA003DB9C1 /* Kollektif.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kollektif.ttf; sourceTree = "<group>"; };
 		A7A79D0E2A4A1329002FC0F9 /* track4me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = track4me.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A79D112A4A1329002FC0F9 /* track4meApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = track4meApp.swift; sourceTree = "<group>"; };
 		A7A79D132A4A1329002FC0F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7883D192A4D579E003DB9C1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A7883D262A4D61AA003DB9C1 /* Kollektif.ttf */,
+				A7883D1A2A4D57CE003DB9C1 /* Chewy-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		A7A79D052A4A1329002FC0F9 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +120,8 @@
 		A7A79D102A4A1329002FC0F9 /* track4me */ = {
 			isa = PBXGroup;
 			children = (
+				A7883D1E2A4D58BB003DB9C1 /* Info.plist */,
+				A7883D192A4D579E003DB9C1 /* Font */,
 				A7A79D112A4A1329002FC0F9 /* track4meApp.swift */,
 				A7A79D132A4A1329002FC0F9 /* ContentView.swift */,
 				A7883D0C2A4CCBBD003DB9C1 /* moodTracker.swift */,
@@ -243,7 +263,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7883D1B2A4D57CE003DB9C1 /* Chewy-Regular.ttf in Resources */,
 				A7A79D192A4A132A002FC0F9 /* Preview Assets.xcassets in Resources */,
+				A7883D272A4D61AA003DB9C1 /* Kollektif.ttf in Resources */,
 				A7A79D162A4A132A002FC0F9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +274,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7883D282A4D61AA003DB9C1 /* Kollektif.ttf in Resources */,
+				A7883D1C2A4D57CE003DB9C1 /* Chewy-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7883D292A4D61AA003DB9C1 /* Kollektif.ttf in Resources */,
+				A7883D1D2A4D57CE003DB9C1 /* Chewy-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +462,7 @@
 				DEVELOPMENT_TEAM = 4WUY78VAJ9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = track4me/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -465,6 +492,7 @@
 				DEVELOPMENT_TEAM = 4WUY78VAJ9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = track4me/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
