@@ -30,10 +30,11 @@ struct journal: View {
                         .multilineTextAlignment(.center)
                         .padding(.bottom, 470)
                 }
-                TextField("Write down your thoughts here...", text: $thoughts)
-                    .multilineTextAlignment(.center)
-                    .foregroundStyle(.black)
-                    .background(.white)
+                TextEditor(text: .constant("Let out your thoughts here..."))
+                    .padding(.top)
+                    .frame(width: /*@START_MENU_TOKEN@*/300.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/300.0/*@END_MENU_TOKEN@*/)
+                    .cornerRadius(24)
+                
             }
         }
     }
