@@ -29,6 +29,12 @@ struct ContentView: View {
                             Text("Journal")
                                 .font(.custom("Kollektif", size: 30))
                                 .foregroundStyle(.black)
+                                .padding(.bottom)
+                                .padding(.top)
+                                .padding(.horizontal, 90)
+                                .background(CustomColor.lightPinkColor)
+                                .cornerRadius(20)
+                                
                         }
                         .padding()
                         // to do list
@@ -36,20 +42,36 @@ struct ContentView: View {
                             Text("To Do List")
                             .font(.custom("Kollektif", size: 30))
                             .foregroundStyle(.black)
+                            .padding(.bottom)
+                            .padding(.top)
+                            .padding(.horizontal, 90)
+                            .background(CustomColor.lightPinkColor)
+                            .cornerRadius(20)
+                            
                         }
                         .padding()
                         // sleep tracker
                         NavigationLink(destination: sleepTracker()) {
-                            Text("Sleep Tracker")
+                            Text("Sleep")
                             .font(.custom("Kollektif", size: 30))
                             .foregroundStyle(.black)
+                            .padding(.bottom)
+                            .padding(.top)
+                            .padding(.horizontal, 90)
+                            .background(CustomColor.lightPinkColor)
+                            .cornerRadius(20)
                         }
                         .padding()
                         // mood tracker
                         NavigationLink(destination: moodTracker()) {
-                            Text("Mood Tracker")
+                            Text("Mood")
                             .font(.custom("Kollektif", size: 30))
                             .foregroundStyle(.black)
+                            .padding(.bottom)
+                            .padding(.top)
+                            .padding(.horizontal, 90)
+                            .background(CustomColor.lightPinkColor)
+                            .cornerRadius(20)
                         }
                         .padding()
                     }
@@ -60,36 +82,9 @@ struct ContentView: View {
     }
 }
 
-/*
-VStack {
-    NavigationStack {
-        Text("track4me")
-            .font(.largeTitle)
-            .fontWeight(.bold)
-            .multilineTextAlignment(.center)
-            // journal
-            NavigationLink(destination: journal()) {
-                Text("Journal")
-            }
-            .padding()
-            // to do list
-            NavigationLink(destination: toDoList()) {
-                Text("To Do List")
-            }
-            .padding()
-            // sleep tracker
-            NavigationLink(destination: sleepTracker()) {
-                Text("Sleep Tracker")
-            }
-            .padding()
-            // mood tracker
-            NavigationLink(destination: moodTracker()) {
-                Text("Mood Tracker")
-            }
-            .padding()
-        }
-    }
-*/
+struct CustomColor {
+    static let lightPinkColor = Color("Color1")
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
