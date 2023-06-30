@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct toDoList: View {
+    @State private var showNewTask = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                Text("To Do List")
+                     .font(.system(size: 40))
+                     .fontWeight(.black)
+                Spacer()
+                Button(action: {
+                    self.showNewTask = true
+                }) {
+                Text("+")
+                }
+            }
+            .padding()
+            Spacer()
+        }
     }
 }
 
