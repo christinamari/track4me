@@ -7,9 +7,11 @@
 
 import SwiftUI
 
+
 struct toDoList: View {
     @State private var showNewTask = false
-    
+    @State var toDoItems: [ToDoItem] = []
+
     var body: some View {
         VStack {
             HStack {
@@ -25,6 +27,21 @@ struct toDoList: View {
             }
             .padding()
             Spacer()
+            
+            List {
+                    ForEach (toDoItems) { toDoItem in
+                        if toDoItem.isImportant == true {
+                            Text("‼️" + toDoItem.title)
+                        } else {
+                            Text(toDoItem.title)
+                        }
+                    }
+            }
+            .listStyle(.plain)
+            .animation(.easeOut, value: showNewTask)
+        }
+        if showNewTask {
+            NewToDoView(title: "", isImportant: false, toDoItems: $toDoItems, showNewTask: $showNewTask)
         }
     }
 }
