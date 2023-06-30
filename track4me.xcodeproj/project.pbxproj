@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A72039512A4E64E300E9759F /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72039502A4E64E300E9759F /* ToDoItem.swift */; };
 		A72039552A4E67CB00E9759F /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72039542A4E67CB00E9759F /* NewToDoView.swift */; };
+		A72039572A4F405300E9759F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72039562A4F405300E9759F /* Persistence.swift */; };
+		A720395A2A4F435E00E9759F /* track4me.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A72039582A4F435E00E9759F /* track4me.xcdatamodeld */; };
 		A75E83502A4B88E10020FA7A /* sleepTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75E834F2A4B88E10020FA7A /* sleepTracker.swift */; };
 		A7883D0D2A4CCBBD003DB9C1 /* moodTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7883D0C2A4CCBBD003DB9C1 /* moodTracker.swift */; };
 		A7883D0F2A4CCBCA003DB9C1 /* toDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7883D0E2A4CCBCA003DB9C1 /* toDoList.swift */; };
@@ -48,6 +50,8 @@
 /* Begin PBXFileReference section */
 		A72039502A4E64E300E9759F /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		A72039542A4E67CB00E9759F /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		A72039562A4F405300E9759F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A72039592A4F435E00E9759F /* track4me.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = track4me.xcdatamodel; sourceTree = "<group>"; };
 		A75E834F2A4B88E10020FA7A /* sleepTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sleepTracker.swift; sourceTree = "<group>"; };
 		A7883D0C2A4CCBBD003DB9C1 /* moodTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodTracker.swift; sourceTree = "<group>"; };
 		A7883D0E2A4CCBCA003DB9C1 /* toDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoList.swift; sourceTree = "<group>"; };
@@ -130,12 +134,14 @@
 				A7A79D132A4A1329002FC0F9 /* ContentView.swift */,
 				A72039502A4E64E300E9759F /* ToDoItem.swift */,
 				A7883D0C2A4CCBBD003DB9C1 /* moodTracker.swift */,
+				A72039562A4F405300E9759F /* Persistence.swift */,
 				A7883D0E2A4CCBCA003DB9C1 /* toDoList.swift */,
 				A72039542A4E67CB00E9759F /* NewToDoView.swift */,
 				A7883D102A4CCBD7003DB9C1 /* journal.swift */,
 				A75E834F2A4B88E10020FA7A /* sleepTracker.swift */,
 				A7A79D152A4A132A002FC0F9 /* Assets.xcassets */,
 				A7A79D172A4A132A002FC0F9 /* Preview Content */,
+				A72039582A4F435E00E9759F /* track4me.xcdatamodeld */,
 			);
 			path = track4me;
 			sourceTree = "<group>";
@@ -301,11 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72039572A4F405300E9759F /* Persistence.swift in Sources */,
 				A75E83502A4B88E10020FA7A /* sleepTracker.swift in Sources */,
 				A7883D112A4CCBD7003DB9C1 /* journal.swift in Sources */,
 				A72039512A4E64E300E9759F /* ToDoItem.swift in Sources */,
 				A7883D0F2A4CCBCA003DB9C1 /* toDoList.swift in Sources */,
 				A7A79D142A4A1329002FC0F9 /* ContentView.swift in Sources */,
+				A720395A2A4F435E00E9759F /* track4me.xcdatamodeld in Sources */,
 				A7A79D122A4A1329002FC0F9 /* track4meApp.swift in Sources */,
 				A7883D0D2A4CCBBD003DB9C1 /* moodTracker.swift in Sources */,
 				A72039552A4E67CB00E9759F /* NewToDoView.swift in Sources */,
@@ -635,6 +643,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A72039582A4F435E00E9759F /* track4me.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A72039592A4F435E00E9759F /* track4me.xcdatamodel */,
+			);
+			currentVersion = A72039592A4F435E00E9759F /* track4me.xcdatamodel */;
+			path = track4me.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A7A79D062A4A1329002FC0F9 /* Project object */;
 }
