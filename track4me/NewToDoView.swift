@@ -18,10 +18,13 @@ struct NewToDoView: View {
     var body: some View {
         VStack {
             Text("Task Title:")
+                .font(.custom("Kollektif", size: 20))
             TextField("Enter the task description...", text: $title)
+                .font(.custom("Kollektif", size: 20))
                 .padding()
             Toggle(isOn: $isImportant) {
                             Text("Is it important?")
+                    .font(.custom("Kollektif", size: 20))
                     .padding()
                         }
             Button(action: {
@@ -30,7 +33,9 @@ struct NewToDoView: View {
                 
             }) {
                 Text("Add")
+                    .font(.custom("Kollektif", size: 20))
                     .padding()
+                    .foregroundColor(.pink)
                 
             }
         }
